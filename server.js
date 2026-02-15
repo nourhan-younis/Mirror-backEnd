@@ -37,6 +37,11 @@ app.use('/api/team-members', teamMemberRoutes);
 const peapoleCommentsRoutes = require('./routes/peapoleCommentsRoutes');
 app.use('/api/peapole-comments', peapoleCommentsRoutes);
 
+const portfolioRoutes = require('./routes/portfolio');
+app.use('/api/portfolio', portfolioRoutes);
+
+
+
 // app.use(express.static(path.resolve('./public')));
 
 // Connect DB & Start Server
