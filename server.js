@@ -40,7 +40,8 @@ app.use('/api/peapole-comments', peapoleCommentsRoutes);
 const portfolioRoutes = require('./routes/portfolio');
 app.use('/api/portfolio', portfolioRoutes);
 
-
+const clientRoutes = require('./routes/clientRoutes');
+app.use('/api/ourClients', clientRoutes);
 
 // app.use(express.static(path.resolve('./public')));
 
