@@ -52,6 +52,9 @@ const howWeWorkRoutes = require('./routes/howWeWork.routes');
 app.use('/api/how-we-work', howWeWorkRoutes);
 
 
+const whoWeServe = require('./routes/whoWeServeRoutes');
+app.use('/api/who-we-serve', whoWeServe);
+
 // app.use(express.static(path.resolve('./public')));
 
 // Connect DB & Start Server
