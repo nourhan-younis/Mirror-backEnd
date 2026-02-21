@@ -43,6 +43,11 @@ app.use('/api/portfolio', portfolioRoutes);
 const clientRoutes = require('./routes/clientRoutes');
 app.use('/api/ourClients', clientRoutes);
 
+
+const aboutUsRoutes = require('./routes/aboutUsRoutes');
+app.use('/api/about-us', aboutUsRoutes);
+
+
 // app.use(express.static(path.resolve('./public')));
 
 // Connect DB & Start Server
