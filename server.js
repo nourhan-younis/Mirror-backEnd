@@ -48,6 +48,10 @@ const aboutUsRoutes = require('./routes/aboutUsRoutes');
 app.use('/api/about-us', aboutUsRoutes);
 
 
+const howWeWorkRoutes = require('./routes/howWeWork.routes');
+app.use('/api/how-we-work', howWeWorkRoutes);
+
+
 // app.use(express.static(path.resolve('./public')));
 
 // Connect DB & Start Server
